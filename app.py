@@ -1,4 +1,5 @@
 import streamlit as st
+BRIA_API_KEY = st.secrets["BRIA_API_KEY"]
 import os
 from dotenv import load_dotenv
 from services import (
